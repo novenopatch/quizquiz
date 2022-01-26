@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".QuizActivity">
+
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="77dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewFirstAnswer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewFirstAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginBottom="196dp"
+
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewThreeAnswer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSecondAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="310dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+      />
+
+    <TextView
+        android:id="@+id/textViewThreeAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="84dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSecondAnswer" />
+</androidx.constraintlayout.widget.ConstraintLayout>
