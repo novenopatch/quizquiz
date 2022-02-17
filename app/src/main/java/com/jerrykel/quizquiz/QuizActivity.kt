@@ -22,7 +22,7 @@ class QuizActivity : AppCompatActivity() {
         setContentView(R.layout.activity_quiz)
         quizArrayList.add(Quiz("Quelle est la capitale de l'Algérie ?","Alger","Paris","caire",1))
         quizArrayList.add(Quiz("Quelle est la capitale du Togo ?","Vienne","Lome","Bruxelle",2))
-        quizArrayList.add(Quiz("Quelle est la capitale du Salvadore ?","Vienne","Lome","Bruxelle",2))
+        quizArrayList.add(Quiz("Quelle est la capitale du Salvadore ?","Vienne","Lome","Non",3))
         initQuizViews()
         showQuestion(quizArrayList[currentQuizIndex])
     }
